@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KANYE WEST — Artist Profile</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <span class="topbar__tag">FILE NO. 0808</span>
+    <span class="topbar__tag">CHICAGO, IL</span>
+    <span class="topbar__tag topbar__tag--accent" id="clock">EST. 1977</span>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <p class="eyebrow">PRODUCER — RAPPER — DESIGNER</p>
+    <h1 class="hero__name">
+      <span>KANYE</span>
+      <span class="hero__name-outline">WEST</span>
+    </h1>
+    <div class="hero__row">
+      <div class="hero__photo" aria-label="Portrait placeholder">
+        <div class="hero__photo-inner">
+          <span class="hero__photo-code">KW / 06</span>
+          <span class="hero__photo-label">PORTRAIT<br>PLACEHOLDER</span>
+        </div>
+      </div>
+      <div class="hero__blurb">
+        <p>Ten-time Grammy fights, a discography that keeps rewriting what a rap
+        album is allowed to sound like, and a design practice that spilled off
+        the stage and into sneakers, runways, and architecture models. This is
+        the file on Ye — the music, the label, the silhouette.</p>
+        <a href="#facts" class="hero__cta">VIEW THE RECORD ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span>SECTION 01</span></div>
+
+  <!-- BIO -->
+  <section class="bio" id="bio">
+    <h2 class="section-title">BIOGRAPHY</h2>
+    <div class="bio__grid">
+      <p class="bio__text">
+        Born June 8, 1977 in Atlanta and raised in Chicago, Kanye West started
+        out behind the boards — producing tracks for Jay-Z and other Roc-A-Fella
+        artists before a car accident and a wired-jaw recovery pushed him in
+        front of the mic. <em>The College Dropout</em> arrived in 2004 and
+        rewired mainstream rap around soul samples, chipmunk vocals, and
+        unfiltered honesty about class and ambition.
+      </p>
+      <p class="bio__text">
+        The decade that followed treated every album like a costume change:
+        the orchestral maximalism of <em>Late Registration</em>, the vocoder
+        heartbreak of <em>808s &amp; Heartbreak</em>, the operatic scale of
+        <em>My Beautiful Dark Twisted Fantasy</em>, the industrial minimalism
+        of <em>Yeezus</em>. Alongside the music, he built Yeezy into one of the
+        best-selling sneaker franchises in history and pushed hip-hop further
+        into fashion, architecture, and product design than almost anyone
+        before him.
+      </p>
+      <div class="bio__stat-strip">
+        <div class="stat"><span class="stat__num">10</span><span class="stat__label">GRAMMY AWARDS</span></div>
+        <div class="stat"><span class="stat__num">11</span><span class="stat__label">STUDIO ALBUMS</span></div>
+        <div class="stat"><span class="stat__num">1977</span><span class="stat__label">YEAR BORN</span></div>
+        <div class="stat"><span class="stat__num">CHI</span><span class="stat__label">HOMETOWN</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span>SECTION 02</span></div>
+
+  <!-- FACTS / LOOKBOOK -->
+  <section class="facts" id="facts">
+    <h2 class="section-title">THE RECORD — FIELD NOTES</h2>
+    <div class="facts__grid">
+      <article class="look">
+        <span class="look__num">LOOK 01</span>
+        <h3>Producer First</h3>
+        <p>Before his own records, he produced beats for Jay-Z's <em>The Blueprint</em>
+        and other Roc-A-Fella releases, building his reputation from behind the boards.</p>
+      </article>
+      <article class="look">
+        <span class="look__num">LOOK 02</span>
+        <h3>The Jaw-Wired Comeback</h3>
+        <p>A near-fatal 2002 car crash left his jaw wired shut. Weeks later he recorded
+        "Through the Wire" rapping with a still-wired jaw.</p>
+      </article>
+      <article class="look">
+        <span class="look__num">LOOK 03</span>
+        <h3>Auto-Tune, Reinvented</h3>
+        <p><em>808s &amp; Heartbreak</em> traded rapping for sung, vocoder-heavy hooks — a
+        left turn that quietly rewired the sound of pop and rap for the decade after.</p>
+      </article>
+      <article class="look">
+        <span class="look__num">LOOK 04</span>
+        <h3>Yeezy, the Business</h3>
+        <p>His partnership with adidas turned Yeezy into one of the best-selling sneaker
+        lines ever, before the deal was terminated in late 2022.</p>
+      </article>
+      <article class="look">
+        <span class="look__num">LOOK 05</span>
+        <h3>The Listening Party Era</h3>
+        <p><em>Donda</em> was previewed through a series of massive stadium listening
+        events rather than a conventional rollout, turning the album launch into a
+        performance in itself.</p>
+      </article>
+      <article class="look">
+        <span class="look__num">LOOK 06</span>
+        <h3>Design Beyond Music</h3>
+        <p>He has credited work spanning furniture, architecture concepts, and creative
+        direction — treating album eras as full visual identities, not just sound.</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="divider"><span>SECTION 03</span></div>
+
+  <!-- INTERACTIVE: ERA SELECTOR -->
+  <section class="era" id="era">
+    <h2 class="section-title">SELECT AN ERA</h2>
+    <p class="era__sub">Every album came with its own uniform. Tap a season to restyle the page and pull its file card.</p>
+
+    <div class="era__buttons" id="eraButtons">
+      <!-- populated by JS -->
+    </div>
+
+    <div class="era__card" id="eraCard">
+      <div class="era__card-top">
+        <span class="era__year" id="eraYear">2004</span>
+        <span class="era__hangtag" id="eraHangtag">TAG / 01</span>
+      </div>
+      <h3 class="era__title" id="eraTitle">THE COLLEGE DROPOUT</h3>
+      <p class="era__desc" id="eraDesc">
+        Soul samples sped into chipmunk vocals, sung hooks from guest choirs, and
+        bars about student debt and self-doubt. The debut that made "backpack rap"
+        commercially unavoidable.
+      </p>
+      <div class="era__palette" id="eraPalette"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Unofficial fan page — built for appreciation, not affiliation.</p>
+    <p class="footer__tag">KW FILE / CLOSED</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
