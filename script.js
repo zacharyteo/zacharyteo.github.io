@@ -14,7 +14,7 @@
 // - The Life of Pablo: orange/coral gradient background
 // - Ye: green Wyoming mountain ridge under a blue-grey sky
 // - Kids See Ghosts: Murakami psychedelic scene — teal, orange, pink
-// - Jesus Is King: warm sepia mountain photo, black text
+// - Jesus Is King: solid deep royal-blue background, bold white text
 // - Donda: solid black square, no imagery
 // - Donda 2: grainy black-and-white photo of West's face
 // - Vultures 1: dark, all-black masked photo (West + Bianca Censori)
@@ -152,8 +152,8 @@
       year: "2019",
       title: "Jesus Is King",
       collab: null,
-      accent: "#b5651d",
-      palette: ["#b5651d", "#16140f", "#e7e2d6", "#8d8778"],
+      accent: "#1e3a72",
+      palette: ["#1e3a72", "#f5f3ec", "#0d1f3f", "#16140f"],
       song: "Follow God",
       spotifyId: "2QpGZOhTCHHiKmpSO9FW4h",
       desc: "A hard turn into gospel and Christian hip-hop, released alongside a concert film and performances from West's Sunday Service choir."
