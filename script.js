@@ -8,7 +8,7 @@
 // - Late Registration: gold bear bust on black
 // - Graduation: Murakami's pink/lavender sky with gold sun
 // - 808s & Heartbreak: red bear/heart graphic on plain white/grey
-// - MBDTF: George Condo phoenix painting — red-orange, black, gold
+// - MBDTF: George Condo's phoenix painting on a blazing solid-red canvas, gilt-framed center
 // - Watch the Throne: ornate gold pattern on black
 // - Yeezus: blank clear jewel case with red tape, no art
 // - The Life of Pablo: orange/coral gradient background
@@ -80,8 +80,8 @@
       year: "2010",
       title: "My Beautiful Dark Twisted Fantasy",
       collab: null,
-      accent: "#c1440e",
-      palette: ["#c1440e", "#16140f", "#d4af37", "#7a1620"],
+      accent: "#d6222f",
+      palette: ["#d6222f", "#16140f", "#d4af37", "#e8c9a8"],
       song: "POWER",
       spotifyId: "2RUFzxyUlI36KKy9Agkqze",
       desc: "Maximalist, orchestral, and self-lacerating in equal measure. Frequently cited by critics as one of the best-reviewed rap albums ever released."
