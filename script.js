@@ -153,7 +153,7 @@
       title: "Jesus Is King",
       collab: null,
       accent: "#1e3a72",
-      palette: ["#1e3a72", "#f5f3ec", "#0d1f3f", "#16140f"],
+      palette: ["#0B3CBF", "#f5f3ec", "#1e3a72", "#d4af37"],
       song: "Follow God",
       spotifyId: "2QpGZOhTCHHiKmpSO9FW4h",
       desc: "A hard turn into gospel and Christian hip-hop, released alongside a concert film and performances from West's Sunday Service choir."
