@@ -152,7 +152,7 @@
       year: "2019",
       title: "Jesus Is King",
       collab: null,
-      accent: "#1e3a72",
+      accent: "#0B3CBF",
       palette: ["#0B3CBF", "#f5f3ec", "#1e3a72", "#d4af37"],
       song: "Follow God",
       spotifyId: "2QpGZOhTCHHiKmpSO9FW4h",
