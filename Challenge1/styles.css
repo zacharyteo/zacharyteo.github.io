@@ -1,0 +1,100 @@
+/* styles.css - Challenge #1 (Skeleton) */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.site-header h1 {
+    text-align: center;
+    color: rgb(236, 24, 130);
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    text-align: center;
+    color: rgb(97, 86, 86);
+}
+
+#mascot-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;;
+    
+}
+
+.mascot-placeholder {
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 0 0 16px 0;
+}
+
+.actions {
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.buy-tickets {
+    background-color: rgb(28, 225, 51);
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 3px rgb(0, 247, 255);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buy-tickets:hover {
+    background-color: rgb(25, 200, 46);
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+
+.make-donation {
+    background-color: rgb(8, 58, 196);
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 3px rgb(253, 117, 249);
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.make-donation:hover {
+    background-color: rgb(6, 47, 160);
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+
+.site-footer {
+    font-size: small;
+    color: gray;
+    text-align: center;
+    border-top: 1px solid gainsboro;
+    margin: 10px;
+}

@@ -1,0 +1,196 @@
+/* styles.css - Challenge #3 (Skeleton: Park Map - Positioning) */
+
+
+/* 0) Base page (font, background, text color, remove default margins) */
+#top {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(239, 247, 247);
+   margin: 0;
+}
+
+/* 1) Container (center, max-width, padding) */
+.container {
+   max-width: 920px;
+   margin: 0 auto;
+   width: 880px;
+}
+
+/* 2) Map section heading (spacing, readability) */
+
+
+/* 3) Map wrapper
+   - Make this the positioning context for absolute children (hint: relative).
+   - Ensure it doesn't overflow horizontally.
+*/
+
+
+/* 4) Map image
+   - Keep it responsive inside the container (full width of wrapper, auto height).
+*/
+.park-map {
+   width: 100%;
+   height: auto;
+   border-radius: 3%;
+}
+
+
+/* 5) Markers
+   - Style as small circular buttons (size, color, border-radius).
+   - Absolutely position them using top/left percentages so they sit over the map.
+   - Center each marker over its coordinates (hint: translate).
+   - Ensure markers appear ABOVE the map (z-index).
+*/
+
+
+
+.marker {
+   position: absolute;
+   width: 12px;
+   height: 12px;
+   padding: 0;
+   border-radius: 50%;
+   background-color: red;
+   border: 1px solid white;
+   top: 100px;
+   right: 100px;
+}
+
+#marker-atlantis { 
+   top: 30%; 
+   left: 22%; 
+}
+#marker-gyro { 
+   top: 17%; 
+   right: 22%;
+}
+#marker-carousel { 
+   top: 62%; 
+   left: 30%; 
+}
+#marker-river { 
+   top: 68%; 
+   right: 30%; 
+}
+
+.tooltip {
+   position: absolute;
+   opacity: 0;
+   white-space: nowrap;
+   background-color: black;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 10px;
+   transform: translate(-50%, -150%);
+   pointer-events: none;
+}
+
+.marker:hover .tooltip{
+   opacity: 1;
+   transform: translate(-50%, -150%);
+}
+/* 6) Tooltips
+   - Hidden by default; visible on hover of the marker.
+   - Small label box above the marker (position absolute relative to marker).
+   - Add a subtle background, border, and rounded corners.
+   - Raise above map and marker with z-index.
+*/
+
+
+/* 7) Legend box
+   - Position absolute INSIDE the map wrapper, bottom-right corner.
+   - Add background, padding, small rounded corners.
+   - Keep text legible and compact.
+*/
+
+.map-wrapper {
+   position:relative;
+}
+
+.legend {
+   border: 1px solid rgb(239, 239, 239);
+   background-color: white;
+   box-shadow: 1px 1px 2px 1px gray;
+   width: 100px;
+   height: auto;
+   margin: 5px 0;
+   padding: 5px 10px;
+   border-radius: 10%;
+   position: absolute;
+   bottom: 80px;
+   right: 20px;
+}
+
+.legend h3 {
+   margin: 5px 0 0 0;
+}
+.legend ul {
+   list-style: none;
+   padding: 0;
+   margin: 5px 0;
+}
+
+.dot-ride {
+   display: inline-block;
+   height: 10px;
+   width: 10px;
+   background-color: red;
+   border: 1px solid gray;
+   border-radius: 50%;
+   margin: 0 5px 0 0;
+}
+
+.dot-landmark {
+   display: inline-block;
+   height: 10px;
+   width: 10px;
+   background-color: lightskyblue;
+   border: 1px solid gray;
+   border-radius: 50%;
+   margin: 0 5px 0 0;
+}
+
+.transport {
+   width: 880px;
+   margin: 0 auto;
+   line-height: 1.5em;
+}
+.transport-columns {
+   display: grid;
+   gap: 20px;
+   grid-template-columns: 420px 420px;
+   margin: 0 auto;
+   align-items: top;
+   justify-content: center;
+}
+
+.transport-info {
+   border: 1px solid grey;
+   border-radius: 3%;
+   background-color: white;
+   padding: 10px;
+
+}
+
+.transport-discounts {
+   border: 1px solid grey;
+   border-radius: 3%;
+   background-color: white;
+   padding: 10px;
+}
+
+.transport-discounts ul {
+   padding: 0 20px;
+}
+
+/* 8) Fixed Back to Top button
+   - Position fixed at bottom-right of viewport.
+   - Visible at all times.
+   - Style as a small pill button.
+   - Keep above everything with z-index.
+*/
+
+
+/* 9) Footer (muted, centered) */
+
+
+/* 10) Getting Here & Around section styling  */
